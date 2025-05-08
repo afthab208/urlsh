@@ -4,9 +4,7 @@ const port =3000;
 const path = require('path');
 const { nanoid } = require('nanoid');
 
-app.get('/', (req,res)=> {
-    res.send("Url.sh")
-})
+
 
 const urls ={};
 app.use(express.static('.'));
