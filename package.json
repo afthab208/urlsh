@@ -1,0 +1,16 @@
+{
+  "name": "urls",
+  "version": "0.0.1",
+  "description": "shortens urls duh",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "afthab0",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nanoid": "^5.1.5",
+    "path": "^0.12.7"
+  }
+}
